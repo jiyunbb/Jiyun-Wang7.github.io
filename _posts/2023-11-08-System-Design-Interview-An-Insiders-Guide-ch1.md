@@ -83,3 +83,39 @@ tags: [book]
 
 
 # 5. CDN(Content Delivey Network)
+![Alt text](../assets/system-design-interview/cdn.jpeg)
+- CDN은 정적 콘텐츠를 전달하기 위해 지리적으로 흩어져있는 서버의 네트워크이다. 
+- 이미지, 비디오, css, js 등 컨텐츠를 전달하고 캐싱한다.
+- 요청한 유저 위치 기준으로 가까운 CDN 서버에서 리소스를 가져온다. 즉, 서버위치가 멀수록 응답/전달 속도가 늦어질 수 있다.
+- 비용, 적절한 캐시 만료 정책, CDN 장애복구 정책 수립, 유효하지 않은 파일 처리(예를 들면 쿼리스트링을 이용한 버저닝, 혹은 API를 이용한 invalid 처리) 등 고려해야한다.
+
+### 절차
+1. 유저가 특정 이미지를 이미지 URL을 사용하여 요청하며, 이때 URL 도메인은 CDN 제공자가 제공한 도메인이다. (예를 들면 http://mysite.cloudfront.net/logo.jpg)
+2. CDN 서버 내 캐시를 확인한다.
+   1. 캐시에 없으면 CDN 에서 직접 origin에(웹 서버 또는 온라인 스토리지 서비스 - S3) 요청하여 리소스를 가져오는데 이 때 옵셔널로 http header와 ttl을 포함한다. 이러한 정보를 CDN 내 캐싱하며, TTL 만료시까지 이 이미지는 캐시서버에 유지된다.
+   2. 캐시에 있으면 정보를 리턴한다.
+3. 유저에게 이미지 리소스를 리턴한다.
+
+
+### Conclusion
+- CDN이 있으면 더 이상 웹 서버에 정적 리소스를 가지고 있지 않아도 된다.
+- CDN 사용은 응답/로드시간 단축에 대한 개선을 할 수 있다. CDN으로 부터 데이터를 가져올 수 있으므로 더 나은 성능 이점을 얻을 수 있다.
+
+
+# 6. Stateless web tier
+## 1. statefull architecture
+![Alt text](../assets/system-design-interview/statefull_arch.jpeg)
+- 동일한 유저는 동일한 서버에 라우팅되어야 한다. 이러한 라우팅이 보장이 되려면 요청시 세션정보나 헤더정보 등 추가정보가 필요하다. 
+- 서버를 추가하거나 삭제 시 장애 발생 위험이 높고, 구조적인 어려움을 겪을 가능성이 높다. 또한 서버 장애에 대한 대응도 어렵다.
+- 예를 들면, 유저 A는 서버 1과 통신을 하였고, 그 서버에 세션정보를 저장하게 되기 때문에 앞으로도 계속 서버 1과 통신을 해야한다. 서버 1에 유저 A에 대한 정보가 있기 때문이다. 즉, 유저 A는 서버 2와 통신하게 되면 저장된 데이터가 없기 때문에 인증 오류나 기타 오류가 발생할 수 있다.
+
+## 2. stateless architecture
+![Alt text](../assets/system-design-interview/stateless_arch.jpeg)
+- 유저로 부터 온 http 요청은 어떤 웹 서버로 가던 상관이 없다. 각 웹 서버는 공유된 데이터 저장소에서 데이터를 가져와 유저의 요청을 처리할 수 있다. 각 지역의 데이터는 공유 데이터에 저장이 되며, 이 중 하나의 웹 서버에 이슈가 생기더라도 서비스에 이상을 주진 않는다.
+- 따라서 더 단순하고, 더 튼튼하고, 더 확장 가능한 방법이다.
+
+# 7. Data centers
+# 8. Message Queue
+# 9. Logging, metrics, automatic
+# 10. Database scaling
+
