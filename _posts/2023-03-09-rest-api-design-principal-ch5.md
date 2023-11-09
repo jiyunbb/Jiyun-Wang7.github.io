@@ -2,7 +2,7 @@
 author: Jiyun Wang
 layout: post
 title: REST API 디자인 규칙 - 5장
-tags: [book]
+tags: [book, rest api design principal]
 ---
 
 ### 5.1 메시지 바디 포맷

@@ -2,7 +2,7 @@
 author: Jiyun Wang
 layout: post
 title: 코드 리팩터링 2판, 6-10. 여러 함수를 변환 함수로 묶기
-tags: [book]
+tags: [book, code refactoring]
 ---
 
 ```

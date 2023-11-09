@@ -2,7 +2,7 @@
 author: Jiyun Wang
 layout: post
 title: 코드 리팩터링 2판, 6-9. 여러 함수를 클래스로 묶기
-tags: [book]
+tags: [book, code refactoring]
 ---
 
 ```

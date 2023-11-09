@@ -2,7 +2,7 @@
 author: Jiyun Wang
 layout: post
 title: REST API 디자인 규칙 - 2장
-tags: [book]
+tags: [book, rest api design principal]
 ---
 
 ### 2.1 URI

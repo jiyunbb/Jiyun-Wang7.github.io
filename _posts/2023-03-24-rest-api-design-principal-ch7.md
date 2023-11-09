@@ -2,7 +2,7 @@
 author: Jiyun Wang
 layout: post
 title: REST API 디자인 규칙 - 7장
-tags: [book]
+tags: [book, rest api design principal]
 ---
 
 ### 7.1 최고의 수준

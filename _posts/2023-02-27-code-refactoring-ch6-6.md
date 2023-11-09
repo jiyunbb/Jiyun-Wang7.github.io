@@ -2,7 +2,7 @@
 author: Jiyun Wang
 layout: post
 title: 코드 리팩터링 2판, 6-6. 변수 캡슐화하기
-tags: [book]
+tags: [book, code refactoring]
 ---
 
 ```

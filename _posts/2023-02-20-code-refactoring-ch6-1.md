@@ -2,7 +2,7 @@
 author: Jiyun Wang
 layout: post
 title: 코드 리팩터링 2판, 6-1. 함수 추출하기
-tags: [book]
+tags: [book, code refactoring]
 ---
 
 ```

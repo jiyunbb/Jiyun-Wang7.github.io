@@ -2,7 +2,7 @@
 author: Jiyun Wang
 layout: post
 title: 코드 리팩터링 2판, 6-5. 함수 선언 바꾸기
-tags: [book]
+tags: [book, code refactoring]
 ---
 
 ```

@@ -2,7 +2,7 @@
 author: Jiyun Wang
 layout: post
 title: 코드 리팩터링 2판, 6-8. 매개변수 객체 만들기
-tags: [book]
+tags: [book, code refactoring]
 ---
 
 ```

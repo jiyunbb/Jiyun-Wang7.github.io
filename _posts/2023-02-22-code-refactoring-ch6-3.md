@@ -2,7 +2,7 @@
 author: Jiyun Wang
 layout: post
 title: 코드 리팩터링 2판, 6-3. 변수 추출하기
-tags: [book]
+tags: [book, code refactoring]
 ---
 
 ```
