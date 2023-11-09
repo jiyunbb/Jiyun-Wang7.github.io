@@ -26,7 +26,7 @@ tags: [book, system design interview]
 
 ![Alt text](../assets/system-design-interview/latency_number.jpeg)
 
-### availability numbers
+### Availability numbers
 - 높은 가용성이란 서비스가 오랫동안 지속적으로 작동할 수 있는 능력이며, 일반적으로 % 로 표현한다. 즉, 가용성이 100% 라는 것은 서버 다운타임이 0이라는 것을 의미한다. 대부분의 서비스가 99% ~ 100% 사이의 가용성을 유지한다.
 - SLA (A Service Level Agreement) 라는 서비스 수준 협약서가 관련되어 있다.
   - 서비스를 제공함에 있어서 공급자와 사용자간에 서비스에 대한 측정지표와 목표 등에 대한 협약서 이며, 일반적으로 CPU 가용시간, 응답시간, 서비스 완료시간 등이 포함된다.
