@@ -1,13 +1,13 @@
 ---
 author: Jiyun Wang
 layout: post
-title: 2. Back-fo-the-envelope estimation
+title: 2. Back-of-the-envelope estimation
 tags: [book, system design interview]
 ---
 
 
 # BACK-OF-THE-ENVELOPE ESTIMATION
-- Back-fo-the-envelope estimation 이란 봉투 뒷면 측정(계산) 이라는 의미로 대략적인 계산(추정)을 의미한다. 이것은 추측 보다는 정확도가 높지만 정확한 계산이나 수학적 증명보다는 정확도가 떨어진다. 즉, 오로지 단순화된 가정을 사용하여 측정하게 된다.
+- Back-of-the-envelope estimation 이란 봉투 뒷면 측정(계산) 이라는 의미로 대략적인 계산(추정)을 의미한다. 이것은 추측 보다는 정확도가 높지만 정확한 계산이나 수학적 증명보다는 정확도가 떨어진다. 즉, 오로지 단순화된 가정을 사용하여 측정하게 된다.
 - 시스템 디자인 인터뷰에서 위 방법을 사용하여 때때로 시스템 용량 또는 성능 요구사항을 계산하는 것을 요청받을 수도 있다.
 
 ### Power of Two
