@@ -2,7 +2,7 @@
 author: Jiyun Wang
 layout: post
 title: 1. Scale from zero to millions of users
-tags: [book]
+tags: [book, system design interview]
 ---
 
 
