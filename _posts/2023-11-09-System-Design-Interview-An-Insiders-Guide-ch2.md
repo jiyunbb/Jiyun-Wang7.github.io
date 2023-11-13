@@ -5,7 +5,7 @@ title: 2. Back-of-the-envelope estimation
 tags: [book, system design interview]
 ---
 
-#### ✔ 해당 포스트는 System Design Interview An Insider's Guide by Alex Xu의 서적을 번역하여 작성되었습니다.
+#### ✔ 해당 포스트는 [System Design Interview An Insider's Guide by Alex Xu](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF)의 서적을 번역하여 작성되었습니다.
 
 # BACK-OF-THE-ENVELOPE ESTIMATION
 - Back-of-the-envelope estimation 이란 봉투 뒷면 측정(계산) 이라는 의미로 대략적인 계산(추정)을 의미한다. 이것은 추측 보다는 정확도가 높지만 정확한 계산이나 수학적 증명보다는 정확도가 떨어진다. 즉, 오로지 단순화된 가정을 사용하여 측정하게 된다.

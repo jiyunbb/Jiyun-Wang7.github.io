@@ -5,7 +5,7 @@ title: 3. A Framework for system design interviews
 tags: [book, system design interview]
 ---
 
-#### ✔ 해당 포스트는 System Design Interview An Insider's Guide by Alex Xu의 서적을 번역하여 작성되었습니다.
+#### ✔ 해당 포스트는 [System Design Interview An Insider's Guide by Alex Xu](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF)의 서적을 번역하여 작성되었습니다.
 
 # A Framework for system design interviews
 - 시스템 디자인 인터뷰는 그들의 목표를 달성하기 위해 두명의 협력자가 협업하여 실제 세계의 모호한 문제를 해결하고 솔루션을 제시하는 것이다.

@@ -5,7 +5,7 @@ title: 1. Scale from zero to millions of users
 tags: [book, system design interview]
 ---
 
-#### ✔ 해당 포스트는 System Design Interview An Insider's Guide by Alex Xu의 서적을 번역하여 작성되었습니다.
+#### ✔ 해당 포스트는 [System Design Interview An Insider's Guide by Alex Xu](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF)의 서적을 번역하여 작성되었습니다.
 
 # 1. Single Server
 ### 절차
