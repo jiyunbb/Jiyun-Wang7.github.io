@@ -13,8 +13,7 @@ tags: [algorithm, data-structure]
 ## 문제풀기
 ---
 
-### 1. Remove Element (특정 값들을 배열에서 제거)
-![Remove Element)](/assets/array/10.png)
+![Replace Elements with Greatest Element on Right Side](/assets/array/10.png)
 
 ```python
 

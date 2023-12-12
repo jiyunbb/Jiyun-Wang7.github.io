@@ -1,7 +1,7 @@
 ---
 author: Jiyun Wang
 layout: post
-title: Array - Replace Elements with Greatest Element on Right Side
+title: Array - Move Zeros
 tags: [algorithm, data-structure]
 ---
 
@@ -13,8 +13,7 @@ tags: [algorithm, data-structure]
 ## 문제풀기
 ---
 
-### 1. Remove Element (특정 값들을 배열에서 제거)
-![Remove Element)](/assets/array/12.png)
+![Move Zeros](/assets/array/12.png)
 
 ```python
 
